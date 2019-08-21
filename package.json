@@ -1,0 +1,23 @@
+{
+  "name": "webgl-practice",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack && mv dist/*.html ./",
+    "dev": "webpack-dev-server --host 0.0.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "add-asset-html-webpack-plugin": "^2.1.3",
+    "html-webpack-plugin": "^3.1.0",
+    "shader-loader": "^1.3.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "uglify-es": "3.3.10"
+  }
+}
